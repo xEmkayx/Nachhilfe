@@ -1,4 +1,4 @@
-package Grundlagen;
+package Januar.Mon23.Grundlagen;
 
 import java.util.Scanner;
 

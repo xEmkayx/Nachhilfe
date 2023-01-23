@@ -1,6 +1,4 @@
-package Pizza;
-
-import Pizza.Pizza.PizzaStatus;
+package Januar.Mon23.Pizza;
 
 public class Starter {
 	public static void main(String[] args) {

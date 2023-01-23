@@ -1,4 +1,4 @@
-package Grundlagen;
+package Januar.Mon23.Grundlagen;
 
 public class Fahrzeug {
 	private int max_geschw;

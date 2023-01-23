@@ -1,4 +1,4 @@
-package Grundlagen;
+package Januar.Mon23.Grundlagen;
 
 public class Fuhrpark {
 	private int anz_stellplaetze;

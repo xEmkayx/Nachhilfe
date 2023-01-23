@@ -1,4 +1,4 @@
-package Grundlagen;
+package Januar.Mon23.Grundlagen;
 
 public enum Wochentage {
 	MONTAG, 

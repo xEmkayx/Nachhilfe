@@ -1,4 +1,4 @@
-package Pizza;
+package Januar.Mon23.Pizza;
 
 public class Pizza {
 	private String[] toppings = new String[3];
