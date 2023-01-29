@@ -18,6 +18,10 @@ in der Nachhilfe machen, damit wir euch sagen können, wo ihr überall Haken set
 ### Verwendung
 Ihr werdet die Kommandozeile hierfür brauchen. Das mag für euch auf den ersten Blick unangenehm sein, allerdings wird 
 hier alles so genau wie möglich erklärt, um es für euch leicht zu machen.
+
+Euren eigenen Code bitte unbedingt in den Ordner namens `Eigenes` packen. Hier könnt ihr auch so viele Untermodule
+erstellen, wie ihr wollt; hauptsache ihr bearbeitet keinen Code, der nicht in diesem Ordner liegt. Der andere Code 
+dient euch lediglich als Grundlage zur Orientierung und dazu, was wir in der Nachhilfe gemacht haben.
 ### Eclipse
 #### Kopieren des Workspaces (Git Clone)
 Damit das alles funktioniert, müsst ihr den Workspace zwingend erstmal kopieren. Dazu sucht ihr euch einen Ordner auf
@@ -44,6 +48,8 @@ cd Nachhilfe
 Und fertig ist der Turnschuh.
 
 #### Up to date bleiben
+Das was hier beschrieben ist, solltet ihr bestenfalls immer zu Beginn des Nachhilfeunterrichts machen.
+
 Wenn ihr Eclipse startet, könnt ihr euren Workspace auswählen. Normalerweise ist der Pfad eures letzten Workspaces
 drinnen. Wählt allerdings auf jeden Fall den aus, der mit diesem Git Repository zusammenhängt (Tipp: der Ordner 
 heißt "Nachhilfe") **aber öffnet ihn noch nicht!**
@@ -79,6 +85,8 @@ leichter: Ihr klickt oben auf
 und gebt den Link des Repositories ein: https://github.com/xEmkayx/Nachhilfe
 
 #### Up to date bleiben
+Das was hier beschrieben ist, solltet ihr bestenfalls immer zu Beginn des Nachhilfeunterrichts machen.
+
 Ganz oben rechts steht `Git:`, gefolgt von ein paar Pfeilen. Ihr drückt den blauen Pfeil, und klickt auf `Ok`, um auf 
 das Projekt auf den neuesten Stand zu bringen.
 
