@@ -8,7 +8,6 @@ public class Fibonacci {
     }
 
     public static int getFibonacciFolge(int zahl) {
-        System.out.printf(zahl);
         if (zahl == 0){
             return 0;
         }
