@@ -1,10 +1,11 @@
 package Januar.Mon30;
 public class Fibonacci {
     public static void main(String[] args) {
-        getFibonacciFolge(5);
+        int maxZahl = 10;
+        for (int i = 0; i < 10; i++){
+            System.out.print(getFibonacciFolge(i) + ", ");
+        }
     }
-
-    // 0, 1, 1, 2, 3, 5, 8
 
     public static int getFibonacciFolge(int zahl) {
         System.out.printf(zahl);
