@@ -1,4 +1,4 @@
-package Januar.Mon30;
+package Januar.Mon30.rekursion;
 public class Fibonacci {
     public static void main(String[] args) {
         int maxZahl = 10;
