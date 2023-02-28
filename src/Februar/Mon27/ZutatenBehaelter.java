@@ -19,8 +19,13 @@ public class ZutatenBehaelter extends Behaelter{
         if (super.fuellStand - menge >= 0) { //true, wenn die Operation möglich ist
             super.fuellStand = super.fuellStand - menge; //neuen Füllstand setzen
         } else {
-            System.out.println("Operation nicht möglich, da Behälter für " + zutat.getName() + " nicht voll genug"); //User mitteilen, dass die Operation nicht möglich ist
+            this.nachfuellen();
+            // System.out.println("Operation nicht möglich, da Behälter für " + zutat.getName() + " nicht voll genug"); //User mitteilen, dass die Operation nicht möglich ist
         }
+    }
+
+    public void nachfuellen(){
+        super.fuellStand = maxFuellung;
     }
 
     @Override

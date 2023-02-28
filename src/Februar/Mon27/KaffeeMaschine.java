@@ -24,6 +24,7 @@ public class KaffeeMaschine {
     private static final ZutatenBehaelter behaelterZucker = new ZutatenBehaelter(Zutat.ZUCKER, 1.0, 1.5);
     private static final ZutatenBehaelter behaelterMilch = new ZutatenBehaelter(Zutat.MILCH, 1.0, 1.5);
 
+    private static final AbfallBehaelter abfallBehaelter = new AbfallBehaelter(1.5, 0.0);
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         boolean keepRunning = true; //boolean für endlosschleife (Endlosschleifen sind schlechter Stil. Stattdessen boolean definieren, der eine Abbruchbedingung darstellt (siehe case 5)
@@ -69,6 +70,9 @@ public class KaffeeMaschine {
     private static void getGetraenk(Rezept r) {
         behaelterWasser.entnehmen(r.getWasserMenge());
         behaelterKaffee.entnehmen(r.getKaffeeMenge());
+        if (r.getKaffeeMenge() >= 0){
+            abfallBehaelter.fuellen(0.2);
+        }
         behaelterKakao.entnehmen(r.getKakaoMenge());
         behaelterZucker.entnehmen(r.getZuckerMenge());
         behaelterMilch.entnehmen(r.getMilchMenge());
