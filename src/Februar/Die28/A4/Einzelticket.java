@@ -2,7 +2,6 @@ package Februar.Die28.A4;
 
 public class Einzelticket extends Ticket {
     private int zone;
-    // Nur in dieser Zone gültig!
     private String verfallsDatum;
 
     public Einzelticket(int preis) {
@@ -15,12 +14,12 @@ public class Einzelticket extends Ticket {
         this.zone = zone;
     }
 
-    public String getVerfa11sDatum() {
+    public String getVerfallsDatum() {
         return verfallsDatum;
     }
 
     @Override
     public boolean gueltigInZone(int zone) {
-        return false;
+        return this.zone == zone;
     }
 }
